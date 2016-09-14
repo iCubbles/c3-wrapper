@@ -1,4 +1,8 @@
 ## c3-wrapper
 
 <hr/>
-Note This page is generated based on the markdown-syntax. For details see <http://daringfireball.net/projects/markdown/syntax/>
+Wrapper of c3 library for usage in cubbles.
+
+    D3-based reusable chart library.
+    See [c3](http://c3js.org/)
+    
