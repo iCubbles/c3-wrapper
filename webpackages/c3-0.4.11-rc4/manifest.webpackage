@@ -1,0 +1,37 @@
+{
+    "name": "c3-0.4.11-rc4",
+    "groupId": "",
+    "version": "1.1.0",
+    "modelVersion": "9.1.0",
+    "docType": "webpackage",
+    "author": {
+        "name": "Judit Ross",
+        "email": "judit.ross@incowia.com"
+    },
+    "license": "MIT",
+    "keywords": [],
+    "man": [],
+    "artifacts": {
+        "apps": [],
+        "elementaryComponents": [],
+        "compoundComponents": [],
+        "utilities": [
+            {
+                "artifactId": "c3",
+                "description": "Wrapper for c3 charting library that is based on d3 library",
+                "resources": [
+                    {
+                        "prod": "vendor/c3.min.html",
+                        "dev": "vendor/c3.html"
+                    }
+                ],
+                "dependencies": [
+                    {
+                        "webpackageId": "d3-3.5.3@1.1.0",
+                        "artifactId": "d3"
+                    }
+                ]
+            }
+        ]
+    }
+}

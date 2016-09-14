@@ -1,0 +1,63 @@
+{
+  "name": "c3-0.4.10",
+  "groupId": "",
+  "version": "1.0.1-SNAPSHOT",
+  "modelVersion": "8.2.0",
+  "docType": "webpackage",
+  "author": {
+    "name": "Philipp Wagner",
+    "email": "philipp.wagner@incowia.com"
+  },
+  "license": "MIT",
+  "keywords": [
+      "charting",
+      "chart",
+      "d3",
+      "c3"
+  ],
+  "man": [
+      "http://c3js.org/"
+  ],
+  "runnables": [],
+  "artifacts": {
+    "apps": [],
+    "utilities": [
+        {
+            "artifactId":"c3",
+            "description" : "Wrapper for c3 charting library that is based on d3 library",
+            "endpoints" : [
+                {
+                    "endpointId" : "main",
+                    "description" : "Default javascript and css import",
+                    "resources" : [
+                        {
+                            "prod" : "c3.min.js",
+                            "dev" : "c3.js"
+                        },
+                        {
+                            "prod" : "c3.min.css",
+                            "dev" : "c3.css"
+                        }
+                    ],
+                    "dependencies" : [
+                        "d3-3.5.3@1.0.0/d3/main"
+                    ]
+                },
+                {
+                    "endpointId" : "html-import",
+                    "description" : "HTML import",
+                    "resources" : [
+                        {
+                            "prod" : "c3.min.html",
+                            "dev" : "c3.html"
+                        }
+                    ],
+                    "dependencies" : [
+                        "d3-3.5.3@1.0.0/d3/html-import"
+                    ]
+                }
+            ]
+        }
+    ]
+  }
+}

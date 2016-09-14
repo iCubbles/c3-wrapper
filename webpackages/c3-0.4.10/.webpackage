@@ -1,0 +1,9 @@
+{
+  "uploadConfigs": {
+    "release": {
+      "url": "https://webblebase.net/shared",
+      "proxy": "",
+      "debug": false
+    }
+  }
+}
